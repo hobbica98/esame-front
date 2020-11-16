@@ -7,7 +7,7 @@
   "private": true,
   "scripts": {
     "build": "quasar build",
-    "start": "node server.js",
+    "start": "quasar build && node server.js",
     "heroku-postbuild": "yarn && yarn build"
   },
   "dependencies": {
